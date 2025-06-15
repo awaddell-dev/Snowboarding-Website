@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    height: 100%;
+    background: url("images/Background1.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+
+  .background-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100%;
+    padding: 20px;
+  }
+  
+
+  header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #00bfff;
+    margin-bottom: 10px;
+  }
+  
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 191, 255, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #00bfff;
+  }
+
+  main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  main h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 125px;
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+.apparel-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.apparel-option {
+  text-align: center;
+}
+
+.apparel-option img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.apparel-option img:hover {
+  transform: scale(1.05);
+}
+
+.apparel-option p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+   color: rgb(0, 255, 179);
+   text-decoration: underline;
+   text-decoration-color: aqua;
+}
+
+.apparel-page .background-overlay {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('images/Background3.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.gear-page .background-overlay {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('images/Background2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.gear-page h2 {
+  margin-bottom: 0.6em;
+}
+
+.gear-page main h2 {
+  margin-bottom: 0.8em;
+}
+
+.gear-page main p {
+  margin-top: 0;
+  margin-bottom: 1.2em;
+}
+
+.gear-page #gear h2 {
+  margin-bottom: 1em;
+}
+
+.gear-page .gear-item p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: aqua;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+
+.gear-page .gear-item {
+  padding: 0.2em 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: #00ffd0;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#map {
+  height: 400px;
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid #00ffd0;
+  border-radius: 8px;
+}
+
+.coords {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.board-size .background-overlay {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('images/Background2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.contact-page .background-overlay {
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('images/Background3.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shredhead - Your Location</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="Shredhead.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="User_Location.js"></script>
+  
+
+</head>
+<body>
+  <div class="background-overlay">
+    <header>
+      <h1>Shredhead Snowboard Company</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Shredhead_Gear.html">Gear</a></li>
+          <li><a href="Shredhead_Apparel.html">Apparel</a></li>
+          <li><a href="Snowboard_Size_Calculator.html">Size Calculator</a></li>
+          <li><a href="Contact_Form.html">Contact</a></li>
+          <li><a href="User_Location_Map.html">Your Location</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Find Your Shred Zone</h2>
+      <div id="map" style="height: 400px; width: 80%; margin: 20px auto; border: 2px solid #00ffd0; border-radius: 8px;"></div>
+
+      <div class="coords" style="margin-top: 20px; font-size: 1.2em;">
+        <p><span class="label">Latitude:</span> <span id="latitude">Loading...</span></p>
+        <p><span class="label">Longitude:</span> <span id="longitude">Loading...</span></p>
+        <p><span class="label">Altitude:</span> <span id="altitude">Loading...</span></p>
+      </div>
+      <div id="resort-list"></div>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Shredhead Snowboard Company</p>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</body>
+</html>
+
+
