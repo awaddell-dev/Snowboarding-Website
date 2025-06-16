@@ -41,14 +41,14 @@ geolocation, API integration, and object-oriented programming.
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Homepage](images/Shredhead_Homepage.png)
+![Homepage](images/Shredhead_Homepage)
 
 ### 📏 Snowboard Size Calculator
-![Size Calculator](images/Snowboard_Size_Calculator.png)
+![Size Calculator](images/Snowboard_Size_Calculator)
 
 ### 📬 Contact Form
-![Contact Form](images/Contact_Us_Page.png)
+![Contact Form](images/Contact_Us_Page)
 
 ### 🗺️ Resort Locator
-![Resort Locator](images/Nearby_Resorts.png)
+![Resort Locator](images/Nearby_Resorts)
 
